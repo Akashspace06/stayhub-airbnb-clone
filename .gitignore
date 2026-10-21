@@ -1,0 +1,24 @@
+# Backend Build
+target/
+*.class
+*.jar
+*.war
+
+# Frontend Build & Dependencies
+node_modules/
+.next/
+out/
+build/
+dist/
+
+# Environment files & secrets
+.env
+.env.local
+.env.*.local
+application-secrets.yml
+
+# IDE & OS files
+.idea/
+*.iml
+.DS_Store
+Thumbs.db
